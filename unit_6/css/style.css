@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+}
+
+
+
+body {
+
+	
+}
+
+img {
+	margin: 20px;
+	float: left;
+	border: 2px solid black;
+ 
+}
+
+nav {
+  background-color: #aaaaaa;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+background-color: lightgrey;
+  font-family: Arial, sans-serif;
+}
+
+
+a {
+  background-color: darkgreen;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 50px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+
+#intro{
+	background-image: url("../images/on_set01_diffuse.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding:5em 0 0;
+	height:150vh
+}
+	p {color:#F8FAF8;
+	}
+
+	h1,h3,a {
+	color: #F8FAF8;
+	font-family: 'Cabin', sans-serif;
+} 
+	h2 {color: #F8FAF8;font-family: arial;
+		font-style: italic;
+		font-size: 20px;
+}
+	h4 {color: #F8FAF8;font-family: arial;
+		font-size: 25px;
+		text-align: center;
+	}
+
+#two_column {
+    background-color: darkgrey;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: green;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: darkgreen;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+	ul {
+	padding-left: 20px;
+
+}
